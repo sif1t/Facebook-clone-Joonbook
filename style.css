@@ -41,6 +41,9 @@ nav{
     border-radius: 50%;
     cursor: pointer;
 }
+.nav-user-icon{
+    margin-left: 30px;
+}
 .search-box{
     background:#efefef ;
     width: 350px;
@@ -54,5 +57,25 @@ nav{
     width: 18px;
 }
 .search-box input{
-    
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+
+.online{
+    position:relative;
+}
+
+.online::after{
+    content: '';
+    width: 7px;
+    height: 7px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    background: #41db51;
+   position: absolute;
+   top: 0;
+   right: 0;
 }
