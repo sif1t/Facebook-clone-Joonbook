@@ -15,6 +15,9 @@ nav{
     justify-content: space-between;
     background: #1876f2;
     padding: 5px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 100; 
 }
 .logo{
     width: 160px;
@@ -81,3 +84,46 @@ nav{
 }
 
  /* navbar satrt end */
+
+ /* container section start  */
+  .container{
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 5%;
+  }
+
+  .left-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+  }
+  .right-sidebar{
+    flex-basis: 25%;
+    position: sticky;
+    top: 70px;
+    align-self: flex-start;
+
+  }
+
+  .main-content{
+    flex-basis: 47%;
+  }
+
+  .imp-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #626262;
+    width: fit-content;
+  }
+  .imp-links a img{
+    width: 25px;
+    margin-right: 15px;
+  }
+
+  .imp-links a:last-child{
+    color: #1876f2;
+  }
+
