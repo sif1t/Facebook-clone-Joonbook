@@ -8,4 +8,30 @@ body{
     background: #efefef;
 
 }
+ /* navbar satrt  */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #1876f2;
+    padding: 5px 5%;
+}
+.logo{
+    width: 160px;
+    margin-right: 45px;
+}
 
+.nav-left{
+    display: flex;
+    align-items: center;
+}
+
+.nav-left ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-left ul li img{
+    width: 28px;
+    margin: 0 15px;
+}
