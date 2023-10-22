@@ -346,6 +346,11 @@ nav{
     resize: none;
  }
 
+ .add-post-links{
+    display: flex;
+    margin-top: 10px;
+ }
+
 /* write-post-container section end  */
 
 
