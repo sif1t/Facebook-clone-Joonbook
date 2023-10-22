@@ -103,6 +103,10 @@ nav{
     position: sticky;
     top: 70px;
     align-self: flex-start;
+    background: #fff;
+    padding: 20px;
+    border-radius: 4px;
+    color: #626262;
 
   }
 
@@ -144,4 +148,19 @@ nav{
   }
 
 
+  .sidebar-title{
+     display: flex ;
+     align-items: center;
+     justify-content: space-between;
+     margin-bottom: 18px;
+  }
 
+  .sidebar-title h4 {
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .sidebar-title a{
+    text-decoration: none;
+    color: #1876f2;
+    font-size: 12px;
+  }
