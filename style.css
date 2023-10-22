@@ -365,6 +365,21 @@ nav{
     margin-right: 10px;
  }
 
+ .post-container{
+   width: 100%;
+   background: #fff;
+   border-radius: 6px;
+   padding: 20px;
+   color: #626262;
+   margin: 20px 0;
+ }
+
+ .user-profile span{
+  font-size: 13px;
+  color: #9a9a9a;
+ }
+
+
 /* write-post-container section end  */
 
 
