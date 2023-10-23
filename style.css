@@ -516,4 +516,12 @@ nav{
   color: #626262;
 }
 
+
+/* dark mode  */
+#dark-btn{
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   background: #ccc;
+}
  
