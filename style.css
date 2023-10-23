@@ -364,7 +364,10 @@ nav{
     width: 20px;
     margin-right: 10px;
  }
+/* write-post-container section end  */
 
+
+/* post-container section start  */
  .post-container{
    width: 100%;
    background: #fff;
@@ -430,7 +433,29 @@ nav{
   margin-right: 5px;
 }
 
-/* write-post-container section end  */
+.post-row {
+  color: #9a9a9a;
+}
+
+
+.load-more-btn{
+   display: block;
+   margin: auto;
+   padding: 5px 10px;
+   border: 1px solid #9a9a9a;
+   color: #626262;
+  background: transparent;
+  border-radius: 4px;
+}
+/* post-container section end   */
+
+/* footer section start  */
+.footer{
+  text-align: center;
+  color: #9a9a9a;
+  padding: 10px 0 20px;
+  font-size: 13px;
+}
 
 
  
