@@ -458,4 +458,52 @@ nav{
 }
 
 
+/* setting section start  */
+.setting-menu{
+  position: absolute;
+  width: 90%;
+  max-width: 350px;
+  height: 500px;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  overflow: hidden;
+  top: 108%;
+  right: 5%;
+}
+
+.user-profile a{
+  font-size: 12px;
+  color: #1876f2;
+  text-decoration: none;
+}
+
+.settings-menu-inner{
+  padding: 20px;
+}
+
+.setting-menu hr{
+  border: 0;
+  height: 1px;
+  background: #9a9a9a;
+  margin: 15px 0     ;
+
+}
+
+.setting-links{
+  display: flex;
+  align-items: center;
+  margin: 15PX 0;
+}
+
+.setting-links .settings-icons{
+    width: 38PX;
+    margin-right: 10PX;
+    border-radius: 50%;
+}
+
+.setting-links a{
+  text-decoration: none;
+}
+
  
