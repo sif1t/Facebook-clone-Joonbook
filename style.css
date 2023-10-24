@@ -705,9 +705,40 @@ nav{
    align-items: center;
 }
 
-
+.profile-intro ul li img{
+  width: 26px;
+  margin-right: 10px;
+}
 
 /* profile-info section  end */
+
+/* profile-intro section start  */
+.title-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title-box a {
+  text-decoration: none;
+  color: #1876f2;
+  font-size: 14px;
+}
+
+.photo-box{
+   display: grid;
+   grid-template-columns: repeat(3, auto);
+   grid-gap: 10px;
+   margin-top: 15px;
+}
+
+.photo-box div img {
+  width: 100%;
+  cursor: pointer;
+}
+
+
+/* profile-intro section end  */
 
 
 
