@@ -22,7 +22,7 @@
 
 body{
     background:var(--body-color);
-    transition: background 0.3s;
+    transition: background 0.4s;
     
 
 }
@@ -107,7 +107,7 @@ nav{
   .container{
     display: flex;
     justify-content: space-between;
-    padding: 13px 5%;
+    padding: 1px 5%;
   }
 
   .left-sidebar{
@@ -323,7 +323,7 @@ nav{
  .write-post-container{
     width: 100%;
     background: var(--bg-color);
-    background: #fff;
+    /* background: #fff; */
     border-radius: 6px;
     padding: 20px;
     color: #626262;
@@ -509,7 +509,7 @@ nav{
   border: 0;
   height: 1px;
   background: #9a9a9a;
-  margin: 15px 0     ;
+  margin: 15px 0 ;
 
 }
 
@@ -559,6 +559,6 @@ nav{
 
 #dark-btn.dark-btn-on{
   padding-left: 23px;
-  background: #000;
+  background: #0a0a0a;
 }
  
