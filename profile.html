@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- title link  -->
+    <title>Profile Page - Joonbook</title>
+    <!-- link fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link css  -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar satrt  -->
+     <nav>
+        <div class="nav-left">
+             <img src="images/logo3.png" class="logo">
+             <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png" ></li>
+                <li><img src="images/video.png" ></li>
+             </ul>
+        </div>
+        <div class="nav-right">
+               <div class="search-box">
+                <img src="images/search.png" alt="">
+                  <input type="text" placeholder="Search">
+               </div>
+               <div class="nav-user-icon online" onclick="SettingMenuToggle ()">
+                   <img src="images/profile-pic.png" alt="">
+               </div>
+        </div>
+
+        <!-- setting menu  -->
+        <div class="setting-menu">
+              <!-- dark mode  -->
+            <div id="dark-btn">
+                <span></span>
+            </div>
+ 
+            <div class="settings-menu-inner">
+              <div class="user-profile">
+                <img src="images/profile-pic.png" alt="">
+                <div>
+                   <p>Arifeen Sifat</p>
+                   <a href="#">See Your Profile</a>
+                </div>
+            </div> 
+            <hr>
+              <div class="user-profile">
+                <img src="images/feedback.png" alt="">
+                <div>
+                   <p>Give Feedback</p>
+                   <a href="#">Help us to improve the new design</a>
+                </div>
+            </div>
+            <hr>
+          
+          
+            <div class="setting-links">
+               <img src="images/setting.png" class="settings-icons">
+               <a href=" #">Setting & Privacy <img src="images/arrow.png" width="10px"></a>
+            </div>
+            <div class="setting-links">
+               <img src="images/help.png" class="settings-icons">
+               <a href=" #">Help & Support<img src="images/arrow.png" width="10px"></a>
+            </div>
+            <div class="setting-links">
+               <img src="images/display.png" class="settings-icons">
+               <a href=" #">Display & Accessibility<img src="images/arrow.png" width="10px"></a>
+            </div>
+            <div class="setting-links">
+               <img src="images/logout.png" class="settings-icons">
+               <a href=" #">lOGOUT<img src="images/arrow.png" width="10px"></a>
+            </div>
+
+
+          </div>
+           
+        </div>
+     </nav>
+       <!-- navbar start end -->
+
+    <!-- profile page  -->
+      <div class="profile-container">
+           
+      </div>
+
+    <!-- profile page end  -->
+
+       <!-- footer start  -->
+       <div class="footer">
+           <p>Copyright 2023 - AS CODER</p>
+       </div> 
+       <!-- footer start end -->
+       
+       <!-- link js  -->
+       <script src="main.js"></script>
+</body>
+</html>
