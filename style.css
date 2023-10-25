@@ -851,4 +851,10 @@ nav{
   .pd-row div h3{
      font-size: 18px;
   }
+  .profile-info{
+     flex-wrap: wrap;
+  }
+  .info-col, .post-col{
+      flex-basis: 100%;
+  }
 }
