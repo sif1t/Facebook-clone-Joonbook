@@ -737,10 +737,118 @@ nav{
   cursor: pointer;
 }
 
+.profile-intro p {
+   font-size: 14px;
+}
+
+.friends-box{
+  display: grid;
+   grid-template-columns: repeat(3, auto);
+   grid-gap: 10px;
+   margin-top: 15px;
+}
+
+.friends-box div img {
+  width: 100%;
+  cursor: pointer;
+  padding-bottom: 20PX;
+}
+
+.friends-box div {
+  position: relative;
+}
+
+.friends-box p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
 
 /* profile-intro section end  */
 
-
-
 /* profile page section end  */
- 
+
+
+
+/* media query for home page  */
+
+@media (max-width:900px){
+  .right-sidebar{
+    display: none;
+  }
+  .left-sidebar{
+    display: none;
+  }
+  nav{
+    flex-wrap: wrap;
+  }
+  .search-box{
+    display: none;
+  }
+  .logo{
+     width: 110px;
+     margin-right: 20px ;
+  }
+  .nav-left ul li img{
+     width: 20px;
+     margin: 0 8px;
+  }
+  .nav-user-icon img{
+    width: 30px;
+  }
+  .nav-user-icon{
+    margin-left: 0;
+  }
+  .add-post-links{
+    flex-wrap: wrap;
+  }
+  .main-content{
+    flex-basis: 100%;
+  }
+  .story img{
+      width: 30px;
+      border-width: 3px;
+  }
+  .story{
+    font-size: 10px;
+  }
+  .story.story1 img{
+     width: 25PX;
+     bottom: 30PX;
+  }
+  .add-post-links a{
+    margin-right: 12PX;
+    font-size: 9PX;
+  }
+  .add-post-links a img{
+    width: 16px;
+    margin-right: 5px;
+  }
+  .post-input-container{
+    padding-left: 0;
+  }
+}
+/* media query for home page end */
+
+
+/* media query for profile page  */
+
+@media (max-width:900px){
+  .profile-container{
+     padding: 20px 5%;
+  }
+  .profile-details{
+    flex-wrap: wrap;
+  }
+  .pd-right{
+    text-align: left;
+    margin-top: 15px;
+  }
+  .pd-right button{
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .pd-row div h3{
+     font-size: 18px;
+  }
+}
